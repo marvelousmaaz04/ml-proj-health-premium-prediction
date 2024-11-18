@@ -29,7 +29,7 @@ with col4:
 with col5:
     smoking_status = st.selectbox(
         "Smoking Status",
-        ['Regular', 'No Smoking', 'Occasional', 'Does Not Smoke', 'Not Smoking']
+        ['No Smoking', 'Occasional', 'Regular',]
     )
 with col6:
     employment_status = st.selectbox(
